@@ -1,0 +1,58 @@
+# Site Capturer
+
+ブラウザ上で URL を入力すると、下層ページも含めてスクリーンショットを取得し ZIP にまとめてダウンロードできるアプリです。
+
+- 下層ページも BFS で取得
+- lazy-load に対応
+- ヘッダー個別キャプチャ + ページ合成
+- ZIP 出力
+
+---
+
+## 必須環境
+
+- [Node.js（LTS 推奨、v18 以上）](https://nodejs.org/ja)　
+- npm
+- Google Chrome
+
+---
+
+## セットアップ手順
+
+### 1. GitHub からクローン
+
+```bash
+git clone https://github.com/dai-570415/site-capturer.git
+cd site-capturer
+```
+
+---
+
+### 2. ルート・サーバー・クライアントそれぞれの依存ライブラリをインストール
+
+```bash
+npm install
+
+cd server
+npm install
+
+cd ../client
+npm install
+
+cd ../
+```
+
+---
+
+### 3. サーバーの起動
+
+```bash
+npm start
+```
+ルートディレクトリでこのコマンドを打つ、サーバー・クライアント両方が起動する。
+
+---
+
+### 4. アプリにアクセスする
+
+クライアントが起動すると`http://localhost:5173/`が出てくるのでアクセスとアプリが開ける。
