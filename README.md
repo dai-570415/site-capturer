@@ -11,6 +11,7 @@
 ## 必須環境
 
 - [Node.js（LTS 推奨、v18 以上）](https://nodejs.org/ja)　
+- macOS
 - npm
 - Google Chrome
 
