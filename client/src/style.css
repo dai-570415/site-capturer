@@ -719,11 +719,9 @@ img {
     border: 1px solid #408ffe;
     border-radius: 4px;
     background-image: linear-gradient(0deg, #408ffe, #40c2fe);
-    transition: 0.5s;
 }
 .site-capture .flex-site-capture .content .form .btn:hover {
-    color: #408ffe;
-    background: #fff;
+    background-image: linear-gradient(0deg, #40c2fe, #408ffe);
 }
 .site-capture .flex-site-capture .content .log h3 {
     font-weight: 500;
